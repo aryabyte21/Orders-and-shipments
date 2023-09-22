@@ -1,0 +1,464 @@
+{
+  "_id": {
+    "$oid": "650d97c6744a0588cb843031"
+  },
+  "source_name": "shopify_draft_order",
+  "tax_lines": [],
+  "total_price_set": {
+    "shop_money": {
+      "amount": "30.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "30.00",
+      "currency_code": "USD"
+    }
+  },
+  "id": 5352744583464,
+  "confirmed": true,
+  "customer_locale": "en",
+  "phone": null,
+  "presentment_currency": "USD",
+  "shipping_address": {
+    "last_name": "Uzzell",
+    "latitude": 39.9694888,
+    "name": "Marilyn Uzzell",
+    "province_code": "PA",
+    "country": "United States",
+    "address2": null,
+    "company": null,
+    "first_name": "Marilyn",
+    "address1": "929 North 50th Street",
+    "phone": "+12154372733",
+    "city": "Philadelphia",
+    "zip": "19131",
+    "province": "Pennsylvania",
+    "longitude": -75.2205446,
+    "country_code": "US"
+  },
+  "client_details": {
+    "browser_ip": "76.111.146.39",
+    "browser_width": null,
+    "session_hash": null,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36",
+    "accept_language": null,
+    "browser_height": null
+  },
+  "discount_codes": [
+    {
+      "code": "",
+      "amount": "20.00",
+      "type": "fixed_amount"
+    }
+  ],
+  "original_total_additional_fees_set": null,
+  "total_line_items_price": "50.00",
+  "total_line_items_price_set": {
+    "shop_money": {
+      "amount": "50.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "currency_code": "USD",
+      "amount": "50.00"
+    }
+  },
+  "total_tax_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    }
+  },
+  "fulfillments": [
+    {
+      "status": "success",
+      "tracking_company": "UPS®",
+      "line_items": [
+        {
+          "taxable": true,
+          "fulfillable_quantity": 0,
+          "quantity": 1,
+          "sku": "",
+          "title": "Round Pet Signs",
+          "discount_allocations": [
+            {
+              "amount_set": {
+                "presentment_money": {
+                  "amount": "20.00",
+                  "currency_code": "USD"
+                },
+                "shop_money": {
+                  "amount": "20.00",
+                  "currency_code": "USD"
+                }
+              },
+              "discount_application_index": 0,
+              "amount": "20.00"
+            }
+          ],
+          "grams": 1293,
+          "name": "Round Pet Signs - Black / medium",
+          "product_exists": true,
+          "variant_inventory_management": null,
+          "id": 13908889862440,
+          "admin_graphql_api_id": "gid://shopify/LineItem/13908889862440",
+          "gift_card": false,
+          "requires_shipping": true,
+          "variant_id": 45294542749992,
+          "total_discount": "0.00",
+          "tax_lines": [],
+          "price_set": {
+            "shop_money": {
+              "amount": "50.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "50.00",
+              "currency_code": "USD"
+            }
+          },
+          "duties": [],
+          "fulfillment_service": "manual",
+          "price": "50.00",
+          "product_id": 8323008659752,
+          "properties": [],
+          "total_discount_set": {
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "vendor": "Unique Engravings",
+          "variant_title": "Black / medium",
+          "fulfillment_status": "fulfilled"
+        }
+      ],
+      "id": 4750323351848,
+      "created_at": "2023-06-12T15:45:54-04:00",
+      "location_id": 80955244840,
+      "service": "manual",
+      "order_id": 5352744583464,
+      "tracking_number": "1Z70W6670391526078",
+      "tracking_url": "https://www.ups.com/WebTracking?loc=en_US&requester=ST&trackNums=1Z70W6670391526078",
+      "tracking_numbers": ["1Z70W6670391526078"],
+      "updated_at": "2023-06-13T16:22:26-04:00",
+      "name": "#1012.1",
+      "origin_address": {},
+      "receipt": {},
+      "shipment_status": "delivered",
+      "admin_graphql_api_id": "gid://shopify/Fulfillment/4750323351848",
+      "tracking_urls": [
+        "https://www.ups.com/WebTracking?loc=en_US&requester=ST&trackNums=1Z70W6670391526078"
+      ]
+    }
+  ],
+  "buyer_accepts_marketing": false,
+  "note_attributes": [],
+  "taxes_included": false,
+  "tags": "",
+  "token": "377599ddd16b20f6baa2eac9f4509eff",
+  "total_discounts_set": {
+    "shop_money": {
+      "amount": "20.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "20.00",
+      "currency_code": "USD"
+    }
+  },
+  "location_id": null,
+  "payment_gateway_names": ["manual"],
+  "source_identifier": "5539fbd346705d4ebe1bae2127c05175",
+  "total_shipping_price_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    }
+  },
+  "current_total_additional_fees_set": null,
+  "merchant_of_record_app_id": null,
+  "reference": "5539fbd346705d4ebe1bae2127c05175",
+  "cancelled_at": null,
+  "created_at": "2023-06-09T14:15:28-04:00",
+  "name": "#1012",
+  "total_tax": "0.00",
+  "user_id": 86759801128,
+  "billing_address": {
+    "company": null,
+    "latitude": null,
+    "longitude": null,
+    "country_code": "US",
+    "first_name": "Marilyn",
+    "address1": "929 North 50th Street",
+    "city": "Philadelphia",
+    "last_name": "Uzzell",
+    "country": "United States",
+    "province_code": "PA",
+    "phone": "+12154372733",
+    "province": "Pennsylvania",
+    "address2": null,
+    "name": "Marilyn Uzzell",
+    "zip": "19131"
+  },
+  "currency": "USD",
+  "current_total_price": "30.00",
+  "estimated_taxes": false,
+  "subtotal_price": "30.00",
+  "closed_at": "2023-06-12T15:45:54-04:00",
+  "fulfillment_status": "fulfilled",
+  "landing_site": null,
+  "discount_applications": [
+    {
+      "type": "manual",
+      "value": "20.0",
+      "value_type": "fixed_amount",
+      "allocation_method": "across",
+      "target_selection": "all",
+      "title": "",
+      "description": null,
+      "target_type": "line_item"
+    }
+  ],
+  "payment_terms": null,
+  "shipping_lines": [
+    {
+      "discounted_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "phone": null,
+      "price": "0.00",
+      "requested_fulfillment_service_id": null,
+      "discounted_price": "0.00",
+      "source": "shopify",
+      "title": "Free shipping",
+      "discount_allocations": [],
+      "id": 4371083788584,
+      "carrier_identifier": "4084464f694a06e6683c491d00cef27f",
+      "code": "custom",
+      "delivery_category": null,
+      "price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "tax_lines": []
+    }
+  ],
+  "device_id": null,
+  "note": null,
+  "test": false,
+  "current_total_tax_set": {
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    },
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    }
+  },
+  "email": "marilyn.uzzell@yahoo.com",
+  "subtotal_price_set": {
+    "shop_money": {
+      "amount": "30.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "30.00",
+      "currency_code": "USD"
+    }
+  },
+  "cancel_reason": null,
+  "cart_token": null,
+  "current_subtotal_price_set": {
+    "presentment_money": {
+      "amount": "30.00",
+      "currency_code": "USD"
+    },
+    "shop_money": {
+      "amount": "30.00",
+      "currency_code": "USD"
+    }
+  },
+  "current_total_discounts_set": {
+    "shop_money": {
+      "currency_code": "USD",
+      "amount": "20.00"
+    },
+    "presentment_money": {
+      "amount": "20.00",
+      "currency_code": "USD"
+    }
+  },
+  "number": 12,
+  "order_number": 1012,
+  "processed_at": "2023-06-09T14:15:28-04:00",
+  "total_outstanding": "0.00",
+  "app_id": 1354745,
+  "browser_ip": "76.111.146.39",
+  "contact_email": "marilyn.uzzell@yahoo.com",
+  "referring_site": null,
+  "customer": {
+    "created_at": "2023-06-09T14:15:10-04:00",
+    "updated_at": "2023-06-09T14:15:29-04:00",
+    "multipass_identifier": null,
+    "tax_exempt": true,
+    "tags": "",
+    "admin_graphql_api_id": "gid://shopify/Customer/7039887507752",
+    "id": 7039887507752,
+    "accepts_marketing": false,
+    "first_name": "Marilyn",
+    "tax_exemptions": [],
+    "email": "marilyn.uzzell@yahoo.com",
+    "state": "disabled",
+    "note": null,
+    "verified_email": true,
+    "phone": null,
+    "last_name": "Uzzell",
+    "email_marketing_consent": {
+      "state": "not_subscribed",
+      "opt_in_level": "single_opt_in",
+      "consent_updated_at": null
+    },
+    "sms_marketing_consent": null,
+    "currency": "USD",
+    "accepts_marketing_updated_at": "2023-06-09T14:15:10-04:00",
+    "marketing_opt_in_level": null,
+    "default_address": {
+      "phone": "+12154372733",
+      "name": "Marilyn  Uzzell",
+      "country_code": "US",
+      "default": true,
+      "address1": "929 North 50th Street",
+      "city": "Philadelphia",
+      "id": 9260168511784,
+      "country": "United States",
+      "country_name": "United States",
+      "company": "",
+      "province": "Pennsylvania",
+      "last_name": "Uzzell",
+      "address2": "",
+      "zip": "19131",
+      "province_code": "PA",
+      "customer_id": 7039887507752,
+      "first_name": "Marilyn "
+    }
+  },
+  "checkout_token": "b8808ca84987aec5205551e443dfdf04",
+  "current_subtotal_price": "30.00",
+  "landing_site_ref": null,
+  "source_url": null,
+  "total_discounts": "20.00",
+  "checkout_id": 36781651820840,
+  "financial_status": "paid",
+  "order_status_url": "https://uniqueengravingsllc.com/67059908904/orders/377599ddd16b20f6baa2eac9f4509eff/authenticate?key=2b501d0cc1669063313328abdca9d5ce",
+  "refunds": [],
+  "admin_graphql_api_id": "gid://shopify/Order/5352744583464",
+  "current_total_duties_set": null,
+  "current_total_tax": "0.00",
+  "total_weight": 1292,
+  "updated_at": "2023-06-13T16:22:26-04:00",
+  "line_items": [
+    {
+      "properties": [],
+      "requires_shipping": true,
+      "sku": "",
+      "fulfillable_quantity": 0,
+      "price": "50.00",
+      "title": "Round Pet Signs",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "discount_allocations": [
+        {
+          "amount": "20.00",
+          "amount_set": {
+            "shop_money": {
+              "amount": "20.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "currency_code": "USD",
+              "amount": "20.00"
+            }
+          },
+          "discount_application_index": 0
+        }
+      ],
+      "product_id": 8323008659752,
+      "total_discount": "0.00",
+      "variant_inventory_management": null,
+      "vendor": "Unique Engravings",
+      "tax_lines": [],
+      "fulfillment_service": "manual",
+      "fulfillment_status": "fulfilled",
+      "price_set": {
+        "shop_money": {
+          "amount": "50.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "currency_code": "USD",
+          "amount": "50.00"
+        }
+      },
+      "quantity": 1,
+      "taxable": true,
+      "variant_title": "Black / medium",
+      "name": "Round Pet Signs - Black / medium",
+      "grams": 1293,
+      "product_exists": true,
+      "variant_id": 45294542749992,
+      "duties": [],
+      "id": 13908889862440,
+      "admin_graphql_api_id": "gid://shopify/LineItem/13908889862440",
+      "gift_card": false
+    }
+  ],
+  "current_total_discounts": "20.00",
+  "original_total_duties_set": null,
+  "total_price": "30.00",
+  "current_total_price_set": {
+    "shop_money": {
+      "amount": "30.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "30.00",
+      "currency_code": "USD"
+    }
+  },
+  "total_tip_received": "0.00"
+}
