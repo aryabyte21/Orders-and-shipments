@@ -5,6 +5,7 @@ import (
 	"backend/pkg/handlers"
 	"log"
 	"net/http"
+	
 )
 
 func main() {
@@ -13,10 +14,15 @@ func main() {
 		log.Fatalf("Error initializing database: %v", err)
 	}
 	// Seed data
-	err = database.SeedData(db, "/Users/aryaarun/Desktop/stripe-integration/backend/cmd/orders_sample.json")
-	if err != nil {
-		log.Fatalf("Error seeding data: %v", err)
-	}
+	// err = database.SeedData(db, "/Users/aryaarun/Desktop/stripe-integration/backend/cmd/orders_sample.json")
+	// if err != nil {
+	// 	log.Fatalf("Error seeding data: %v", err)
+	// }
+	//seed stripe data
+	// err = database.SeedDataFromMongoToStripe("mongodb://localhost:27017", "stripedb")
+	// if err != nil {
+	// 	log.Fatalf("Error seeding data from MongoDB to Stripe: %v", err)
+	// }
 	http.HandleFunc("/orders", handlers.GetOrdersHandler(db))
 	http.HandleFunc("/updateShipmentStatus", handlers.UpdateShipmentStatusHandler(db))
 

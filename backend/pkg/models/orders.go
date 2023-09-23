@@ -9,7 +9,7 @@ import (
 type Order struct {
 	ID                  primitive.ObjectID `bson:"_id,omitempty" json:"-"`
 	BusinessID          primitive.ObjectID `bson:"businessId" json:"-"`
-	OrderTotal          string             `bson:"total_price_set.shop_money.amount"`
+	OrderTotal          string             `bson:"total_price"`
 	OrderNumber         int64              `bson:"order_number"`
 	CustomerName        Customer           `bson:"customer"`
 	CustomerEmail       string             `bson:"email"`
