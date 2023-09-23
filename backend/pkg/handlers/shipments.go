@@ -14,6 +14,12 @@ import (
 
 func UpdateShipmentStatusHandler(db *mongo.Database) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
+		enableCors(&w)
+
+		if r.Method == "OPTIONS" {
+			w.WriteHeader(http.StatusOK)
+			return
+		}
 		shipmentID := r.URL.Query().Get("shipmentID")
 		if shipmentID == "" {
 			http.Error(w, "Shipment ID not provided in URL parameters", http.StatusBadRequest)
