@@ -21,7 +21,7 @@ type Order struct {
 	ProviderCreatedAt   time.Time          `bson:"fulfillments.0.created_at"`
 	Products            []Product          `bson:"line_items"`
 	UniqueId            string             `bson:"token"`
-	StripePaymentID	 string             `bson:"stripe_payment_id,omitempty" json:"stripe_payment_id,omitempty"`
+	StripePaymentID     string             `bson:"stripe_payment_id,omitempty" json:"stripe_payment_id,omitempty"`
 }
 
 type OrderData struct {
@@ -37,7 +37,17 @@ type Product struct {
 }
 
 type Customer struct {
-	FirstName string `bson:"first_name"`
-	LastName  string `bson:"last_name"`
-	Currency  string `bson:"currency"`
+	FirstName      string  `bson:"first_name"`
+	LastName       string  `bson:"last_name"`
+	Currency       string  `bson:"currency"`
+	DefaultAddress Address `bson:"default_address"`
+}
+
+type Address struct {
+	Phone    string `bson:"phone"`
+	Address1 string `bson:"address1"`
+	City     string `bson:"city"`
+	Province string `bson:"province"`
+	Zip      string `bson:"zip"`
+	Country  string `bson:"country_name"`
 }
