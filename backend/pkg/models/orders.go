@@ -21,6 +21,7 @@ type Order struct {
 	ProviderCreatedAt   time.Time          `bson:"fulfillments.0.created_at"`
 	Products            []Product          `bson:"line_items"`
 	UniqueId            string             `bson:"token"`
+	StripePaymentID	 string             `bson:"stripe_payment_id,omitempty" json:"stripe_payment_id,omitempty"`
 }
 
 type OrderData struct {
