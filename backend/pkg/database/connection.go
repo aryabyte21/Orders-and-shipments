@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	ConnectionString = "mongodb://localhost:27017"
+	ConnectionString = "mongodb+srv://aryabyte:mkh4yt5fn4@cluster0.w0gftbh.mongodb.net/?retryWrites=true&w=majority"
 	DBName = "stripedb"
 )
 
