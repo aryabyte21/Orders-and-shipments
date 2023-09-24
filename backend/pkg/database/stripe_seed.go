@@ -69,10 +69,18 @@ func SeedDataFromMongoToStripe(mongoURI string, dbName string) error {
 			Currency: stripe.String(order.CustomerName.Currency),
 			Customer: stripe.String(c.ID),
 		}
-		_, err = paymentintent.New(paymentIntentParams)
+		paymentIntent, err := paymentintent.New(paymentIntentParams)
 		if err != nil {
 			log.Printf("Error creating payment intent for order %s: %v", order.CustomerEmail, err)
+		} else {
+			// Update the order with the Stripe payment ID
+			orderUpdate := bson.M{"$set": bson.M{"stripe_payment_id": paymentIntent.ID}}
+			_, err = orderCollection.UpdateOne(context.TODO(), bson.M{"_id": order.ID}, orderUpdate)
+			if err != nil {
+				log.Printf("Error updating order with Stripe payment ID: %v", err)
+			}
 		}
+
 	}
 	return nil
 }

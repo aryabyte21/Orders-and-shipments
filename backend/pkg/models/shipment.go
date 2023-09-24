@@ -37,6 +37,7 @@ type Shipment struct {
 	TrackerServiceCode      string             `bson:"trackerServiceCode"`
 	UniqueId                string             `bson:"uniqueId"`
 	Fulfillments            []Fulfillment      `bson:"fulfillments" json:"fulfillments"`
+	StripePaymentID         string             `bson:"stripe_payment_id,omitempty" json:"stripe_payment_id,omitempty"`
 }
 
 type Fulfillment struct {

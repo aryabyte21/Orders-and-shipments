@@ -5,7 +5,6 @@ import (
 	"backend/pkg/handlers"
 	"log"
 	"net/http"
-	
 )
 
 func main() {
